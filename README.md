@@ -9,7 +9,7 @@ The first time you run Twintrest it will ask you to authenticate against the
 application - this may require some cutting-and-pasting from the command line
 into a browser, and back into the command line.
 
-Useage is as follows:
+Usage is as follows:
 <pre>
 python twintrest.py hashtag ip-address-of-holiday
 </pre>

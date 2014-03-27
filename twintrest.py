@@ -185,9 +185,9 @@ class Twinkler(threading.Thread):
 					self.matches.remove(thingy)
 				else:
 					(ar, ag, ab) = self.hol.getglobe(pos)		# Get the current globe value
-					ar = 0x7f
-					ag = 0x7f
-					ab = 0x7f		# Make it all whiterer
+					ar = 0x2f
+					ag = 0x2f
+					ab = 0x2f		# Make it all whiterer, but not too bright
 					self.hol.setglobe(pos, ar, ag, ab)
 					thingy[0] = thingy[0] + 1		# And move the position along
 			try:
