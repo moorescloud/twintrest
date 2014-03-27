@@ -11,9 +11,9 @@ into a browser, and back into the command line.
 
 Useage is as follows:
 <pre>
-python twintrest.py <hashtag> <ip-address-of-holiday>
+python twintrest.py hashtag ip-address-of-holiday
 </pre>
-Twintrest uses the SecretAPI for Holiday so it's quite speedy in its animations.
+Twintrest uses the <a href="https://github.com/moorescloud/secretapi">SecretAPI for Holiday</a> so it's quite speedy in its animations.
 
-Mark Pesce
+Mark Pesce<br/>
 March 2014
